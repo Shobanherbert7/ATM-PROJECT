@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(100, 100, 246);
+    margin: 20px;
+}
+
+h1{
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+    background-color: rgb(99, 63, 243);
+    text-align: center;
+
+}
+.heading{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+    padding-left: 10px;
+    margin: 20px;
+}
+
+.left-btn{
+    display: inline-block;
+    
+}
+
+.right-btn{
+    display: inline-block;
+
+}
+.btn-transfer{
+    width: 50%;
+    height: 70px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgb(113, 113, 203);
+    border-color: aliceblue; 
+    cursor: pointer;
+    border: none;
+    
+
+}
+.btn-transfer:hover{
+    background-color: rgb(160, 160, 240);
+}
+
+.btn-withdraw{
+    width: 50%;
+    height: 70px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgb(113, 113, 203);
+    border-color: aliceblue; 
+    cursor: pointer;
+    border: none;
+
+
+}
+
+.btn-withdraw:hover{
+    background-color: rgb(160, 160, 240);
+}
+
+.btn-Fast-Cash{
+    width: 50%;
+    height: 70px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgb(113, 113, 203);
+    border-color: aliceblue; 
+    cursor: pointer;
+    border:none;
+
+
+}
+.btn-Fast-Cash:hover{
+    background-color: rgb(160, 160, 240);
+}
+
+
+.btn-balance{
+    width: 50%;
+    height: 70px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgb(113, 113, 203);
+    border-color: aliceblue; 
+    cursor: pointer;
+    border: none;
+
+
+}
+.btn-balance:hover{
+    background-color: rgb(160, 160, 240);
+}
+
+.btn-Pin-change{
+    width: 50%;
+    height: 70px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgb(113, 113, 203);
+    border-color: aliceblue; 
+    cursor: pointer;
+    border: none;
+
+}
+.btn-Pin-change:hover{
+    background-color: rgb(160, 160, 240);
+}
+.btn-Exit{
+    width: 50%;
+    height: 70px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgb(113, 113, 203);
+    border-color: aliceblue; 
+    cursor: pointer;
+    border: none;
+
+}
+.btn-Exit:hover{
+    background-color: rgb(160, 160, 240);
+}

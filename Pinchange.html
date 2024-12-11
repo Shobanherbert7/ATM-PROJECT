@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PinChange.css">
+    <title>ATM PIN Change</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Change Pin</h1>
+        <form id="pinChangeForm">
+            <div class="form-group">
+                <label for="newPin">Enter New PIN:</label>
+                <input type="password" id="newPin" maxlength="4" required>
+
+            </div>
+            <div class="form-group">
+                <label for="confirmPin">Confirm New PIN:</label>
+                <input type="password" id="confirmPin" maxlength="4" required>
+              </div>
+              <button type="submit">Change PIN</button>
+            </form>
+            <div id="message"></div>
+          </div>
+        </form>
+    </div>
+    <script src="PinChange.js"></script>
+</body>
+</html>

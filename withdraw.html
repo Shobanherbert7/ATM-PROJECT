@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="withdraw.css">
+    <title>Withdraw Cash</title>
+</head>
+<body>
+    <div class="atm-container">
+        <h1>Withdrawal Cash</h1>
+        <div class="balance-display">
+            <p>Available Balance:<span id="balance">5000</span>INR</p>
+        </div>
+        <p>Enter an amount to withdraw:</p>
+        <form id="withdrawal-form">
+            <div class="form-group">
+                <input type="number" id="amount" min="100" step="100" required>
+                <button type="submit">Withdraw</button>
+            </div>
+        </form>
+        <div id="message"></div>
+    </div>
+    <script src="withdraw.js"></script>
+</body>
+</html>
